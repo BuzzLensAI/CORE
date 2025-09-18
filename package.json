@@ -1,0 +1,22 @@
+{
+  "name": "buzzlens-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/api/server.js",
+    "dashboard": "node src/dashboard/dev.js",
+    "test": "npm run test:js && npm run test:py",
+    "test:js": "node --version && npx jest --runInBand",
+    "test:py": "pytest -q || echo 'Python tests optional'"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

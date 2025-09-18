@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "token": "$BONK",
+      "hypeScore": 0.87,
+      "mentions24h": 9123,
+      "sentiment": "bullish",
+      "novelty": 0.62
+    },
+    {
+      "token": "$YUMI",
+      "hypeScore": 0.74,
+      "mentions24h": 2811,
+      "sentiment": "neutral",
+      "novelty": 0.55
+    },
+    {
+      "token": "$PEPE",
+      "hypeScore": 0.69,
+      "mentions24h": 5102,
+      "sentiment": "neutral",
+      "novelty": 0.33
+    }
+  ]
+}
